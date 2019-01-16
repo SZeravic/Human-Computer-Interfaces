@@ -1,9 +1,28 @@
 import React from "react";
-import { Layout } from "../components";
+import { graphql } from "gatsby";
 
-export default () => (
-    <Layout>
-        <h1>My first Gatsby app</h1>
-        <p>Hello, World!</p>
-    </Layout>
-);
+export default ({
+  data: {
+    site: {
+      siteMetadata: { title, description }
+    }
+  }
+}) => {
+  return (
+    <>
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </>
+  );
+};
+
+export const query = graphql`
+  query SiteMetadata {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+  }
+`;

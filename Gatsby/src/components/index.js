@@ -1,4 +1,5 @@
-export { default as SiteContainer } from "./SiteContainer";
-export { default as Container } from "./Container";
-export { default as Header } from "./Header";
-export { default as Layout } from "./Layout";
+export { default as SiteContainer } from "components/SiteContainer";
+export { default as Container } from "components/Container";
+export { default as Layout } from "components/Layout";
+export { default as NavLink } from "components/Layout/Header/NavLink";
+export { default as BlogIndex } from "components/BlogIndex";
