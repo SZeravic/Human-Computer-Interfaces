@@ -15,7 +15,7 @@ export default () => {
   return (
     <header className={styles.Header}>
       <Container className={styles.Container}>
-        <span className={styles.Logo}>Gatsby</span>
+        <span className={styles.Logo}>Sustav Za Zapošljavanje</span>
         <Nav>{nav}</Nav>
       </Container>
     </header>

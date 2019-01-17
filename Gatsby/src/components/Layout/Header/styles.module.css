@@ -8,6 +8,8 @@
   background: #fff;
   border-bottom: 1px solid var(--color-grey, #000);
   margin-bottom: 40px;
+
+  background-color: orange;
 }
 
 .Container {
@@ -15,6 +17,8 @@
   justify-content: space-between;
   align-items: center;
   flex: 1;
+
+  background-color: yellow;
 }
 
 .Logo {
@@ -30,6 +34,8 @@
   align-items: stretch;
   overflow-x: auto;
   overflow-y: hidden;
+
+  background-color: lightcyan;
 }
 
 .NavLink {
@@ -46,6 +52,8 @@
   border-bottom: 3px solid transparent;
   transition: all 0.25s linear;
   overflow-x: hidden;
+
+  background-color: lightgreen;
 }
 
 .NavLink_active,

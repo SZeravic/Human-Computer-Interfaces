@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "My first Gatsby application",
-    description: "Hello, World!"
+    title: "Sustav Za Zapošljavanje",
+    description: "Home Page"
   },
 
   plugins: [
