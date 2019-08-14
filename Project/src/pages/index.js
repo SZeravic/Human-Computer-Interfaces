@@ -1,17 +1,11 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-export default ({
-  data: {
-    site: {
-      siteMetadata: { title, description }
-    }
-  }
-}) => {
+export default ({ data }) => {
   return (
     <>
-      <h1>{title}</h1>
-      <p>{description}</p>
+      <h1> { data.site.siteMetadata.title } </h1>
+      <p> { data.site.siteMetadata.description } </p>
     </>
   );
 };

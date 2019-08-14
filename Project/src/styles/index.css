@@ -3,6 +3,7 @@
   --color-grey: #eeeeee;
   --color-dark-grey: #776666;
   --color-gold: #e67700;
+  --color-blue: #3184f0;
 
   --header-height: 40px;
   --header-padding: 5px;
@@ -49,12 +50,12 @@ body {
 }
 
 a {
-  color: var(--color-gold, orange);
+  color: var(--color-blue, orange);
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom: 3px solid var(--color-gold, orange);
+  border-bottom: 3px solid var(--color-blue, orange);
 }
 
 .figure {

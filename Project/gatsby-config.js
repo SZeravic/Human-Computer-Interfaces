@@ -5,6 +5,8 @@ module.exports = {
   },
 
   plugins: [
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-playground",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -12,7 +14,6 @@ module.exports = {
         name: "posts"
       }
     },
-    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
