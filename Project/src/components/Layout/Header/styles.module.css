@@ -18,9 +18,15 @@
 }
 
 .Logo {
-  --logo-padding: calc(var(--header-padding, 5px) + 1px);
+  display: inline-block;
+  /* --logo-padding: calc(var(--header-padding, 5px) + 1px); */
   font-weight: 500;
   padding: var(--logo-padding) 0;
+  color: black;
+}
+
+.Logo:hover {
+  transition: all 0.15s linear;
   color: var(--color-blue, orange);
 }
 

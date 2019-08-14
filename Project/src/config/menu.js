@@ -4,8 +4,12 @@ export default [
     path: "/"
   },
   {
-    text: "Second page",
-    path: "/second-page"
+    text: "Clients",
+    path: "/clients"
+  },
+  {
+    text: "Employers",
+    path: "/employers"
   },
   {
     text: "Blog",
@@ -14,5 +18,9 @@ export default [
   {
     text: "About",
     path: "/about"
+  },
+  {
+    text: "Login",
+    path: "/login"
   }
 ];

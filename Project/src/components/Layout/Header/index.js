@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import { Container } from "components";
 import Nav from "./Nav";
 import NavLink from "./NavLink";
@@ -15,7 +16,9 @@ export default () => {
   return (
     <header className={styles.Header}>
       <Container className={styles.Container}>
-        <span className={styles.Logo}>Gatsby</span>
+        <Link to="/">
+          <span className={styles.Logo}>Gatsby</span>
+        </Link>
         <Nav>{nav}</Nav>
       </Container>
     </header>

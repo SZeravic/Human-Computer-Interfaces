@@ -2,8 +2,8 @@ import React from "react";
 import { graphql } from "gatsby";
 import styles from "./styles.module.css";
 
-export default ({ data }) => {
-  const { markdownRemark: post } = data;
+export default ({ props }) => {
+  const { markdownRemark: post } = props.data;
   return (
     <>
       <h1>{post.frontmatter.title}</h1>
@@ -16,7 +16,7 @@ export default ({ data }) => {
 };
 
 export const query = graphql`
-  query BlogPostQuery($slug: String!) {
+  query ($slug: String!) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
