@@ -5,7 +5,9 @@ import styles from "./styles.module.css";
 export default ({ children }) => {
   return (
   <main className={styles.Main}>
-    <Container>{children}</Container>
+    <Container>
+      {children}
+    </Container>
   </main>
   )
 };

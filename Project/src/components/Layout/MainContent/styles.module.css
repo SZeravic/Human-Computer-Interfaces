@@ -1,0 +1,34 @@
+.MainContent {
+    display: flex;
+    height: 100%;
+}
+
+.Main {
+    min-width: 85%;
+    
+}
+
+.Aside {
+    min-width: 15%;
+    padding-top: 1rem;
+    font-size: 14px;
+}
+
+.AsideJobItem {
+    text-align: center;
+    margin: 3px;
+}
+
+.AsideStatistics {
+    text-align: center;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .Aside {
+      display: none;
+      transition: all 0.25s linear;
+    }
+  }

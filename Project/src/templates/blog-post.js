@@ -8,10 +8,7 @@ export default ({ data }) => {
   return (
     <>
       <h1>{post.frontmatter.title}</h1>
-      <section
-        className={styles.Post}
-        dangerouslySetInnerHTML={{ __html: post.html }}
-      />
+      <section className={styles.Post} dangerouslySetInnerHTML={{ __html: post.html }}/>
     </>
   );
 };

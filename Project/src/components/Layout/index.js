@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { SiteContainer } from "components";
-import Main from "./Main";
+import MainContent from "./MainContent"
 import Header from "./Header";
 import Footer from "./Footer";
 import MenuButton from "./MenuButton";
@@ -41,12 +41,12 @@ class Layout extends Component {
     const status = this.state.showSideMenu ? "open" : "closed";
 
     return (
-      <SiteContainer>
+      <SiteContainer>       
         <Header />
         <MenuButton status={status} onClick={this.showMenu} />
         <Overlay status={status} onClick={this.showMenu} />
         <SideMenu status={status} />
-        <Main>{children}</Main>
+        <MainContent children={children}></MainContent>
         <Footer />
       </SiteContainer>
     );
