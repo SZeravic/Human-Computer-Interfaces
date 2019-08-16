@@ -2,8 +2,9 @@ import React from "react";
 import { graphql } from "gatsby";
 import styles from "./styles.module.css";
 
-export default ({ props }) => {
-  const { markdownRemark: post } = props.data;
+export default ({ data }) => {
+  // console.log(data);
+  const { markdownRemark: post } = data;
   return (
     <>
       <h1>{post.frontmatter.title}</h1>

@@ -17,7 +17,14 @@ export default ({
 
 export const query = graphql`
   query BlogIndexQuery {
-    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+    allMarkdownRemark (
+      sort: {
+        fields:
+          frontmatter___date,
+          order: ASC
+      }
+    )
+  {
       edges {
         node {
           id
