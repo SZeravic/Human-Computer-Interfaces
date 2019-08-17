@@ -1,7 +1,10 @@
 import React from "react";
+import MainContent from "../components/Layout/MainContent";
 
 export default () => (
   <>
-    <h1>Clients page</h1>
+    <MainContent>
+      <h1>Clients page</h1>
+    </MainContent>
   </>
 );

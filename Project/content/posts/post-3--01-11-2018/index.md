@@ -6,7 +6,8 @@ slug: post-three
 
 <!-- markdownlint-disable MD033 -->
 
-# [Lorem Ipsum](https://www.lipsum.com/)
+<!-- # [Lorem Ipsum](https://www.lipsum.com/) -->
+# Lorem Ipsum
 
 <figure class="figure">
     <img src="./images/geran-de-klerk-136351-unsplash.jpg" alt="Title"/>

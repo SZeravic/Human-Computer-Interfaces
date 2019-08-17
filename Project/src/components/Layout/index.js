@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { SiteContainer } from "components";
-import MainContent from "./MainContent"
+import Main from "./MainContent/Main";
 import Header from "./Header";
 import Footer from "./Footer";
 import MenuButton from "./MenuButton";
@@ -46,7 +46,7 @@ class Layout extends Component {
         <MenuButton status={status} onClick={this.showMenu} />
         <Overlay status={status} onClick={this.showMenu} />
         <SideMenu status={status} />
-        <MainContent children={children}></MainContent>
+        <Main> {children} </Main>
         <Footer />
       </SiteContainer>
     );

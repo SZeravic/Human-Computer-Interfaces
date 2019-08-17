@@ -5,7 +5,7 @@
 
 .Main {
     min-width: 85%;
-    
+    flex: 1;
 }
 
 .Aside {

@@ -1,7 +1,8 @@
 import React from 'react';
+import Login from "components/Private/Login";
 
 export default () => (
     <>
-        <h1> Log in page </h1>
+        <Login/>
     </>
 );

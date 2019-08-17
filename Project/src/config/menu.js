@@ -21,6 +21,7 @@ export default [
   },
   {
     text: "Login",
-    path: "/login"
+    path: "/login",
+    login: true
   }
 ];

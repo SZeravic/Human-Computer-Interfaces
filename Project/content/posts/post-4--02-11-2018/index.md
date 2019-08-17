@@ -6,7 +6,8 @@ slug: post-four
 
 <!-- markdownlint-disable MD033 -->
 
-# [Lorem Ipsum](https://www.lipsum.com/)
+<!-- # [Lorem Ipsum](https://www.lipsum.com/) -->
+# Lorem Ipsum
 
 <figure class="figure">
     <img src="./images/austin-neill-222827-unsplash.jpg" alt="Title"/>

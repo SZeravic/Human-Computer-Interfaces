@@ -6,7 +6,8 @@ slug: post-one
 
 <!-- markdownlint-disable MD033 -->
 
-# [Lorem Ipsum](https://www.lipsum.com/)
+<!-- # [Lorem Ipsum](https://www.lipsum.com/) -->
+# Lorem Ipsum
 
 <figure class="figure">
     <img src="./images/alessandro-viaro-94370-unsplash.jpg" alt="Title"/>

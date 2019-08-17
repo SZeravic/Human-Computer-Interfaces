@@ -1,11 +1,14 @@
 import React from "react";
 import { graphql } from "gatsby";
+import MainContent from "../components/Layout/MainContent";
 
 export default ({ data }) => {
   return (
     <>
-      <h1> { data.site.siteMetadata.title } </h1>
-      <p> { data.site.siteMetadata.description } </p>
+      <MainContent>
+        <h1> { data.site.siteMetadata.title } </h1>
+        <p> { data.site.siteMetadata.description } </p>
+      </MainContent>
     </>
   );
 };
