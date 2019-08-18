@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { navigate } from "gatsby";
 import styles from "./styles.module.css";
 
-class RegisterForm extends Component {
+export default class RegisterForm extends Component {
   state = {
     username: "",
     password: "",
@@ -16,23 +16,26 @@ class RegisterForm extends Component {
   handleEmail = event => this.setState({email: event.target.value});
   handleSubmit = event => {
     event.preventDefault();
-
     const status = this.props.handleLogin(this.state);
 
     let { message, invalid } = this.state;
     if (status.error) {
       message = status.message;
       invalid = true;
-      return this.setState({ username: "", password: "", message, invalid });
+      return this.setState({
+        username: "",
+        password: "",
+        message,
+        invalid
+      });
     }
 
     navigate(this.props.private);
   };
 
   render() {
-    const style = this.state.invalid
-      ? { color: "var(--color-gold, red)" }
-      : { color: "var(--color-gatsby)" };
+    const style = this.state.invalid  ? { color: "var(--color-gold, red)" } 
+                                      : { color: "var(--color-gatsby)" };
 
     return (
       <form className={styles.RegisterForm}>
@@ -70,6 +73,4 @@ class RegisterForm extends Component {
       </form>
     );
   }
-}
-
-export default RegisterForm;
+};

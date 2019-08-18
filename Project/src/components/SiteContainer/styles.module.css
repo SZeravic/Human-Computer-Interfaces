@@ -3,5 +3,15 @@
   flex-direction: column;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 450px) {
+  .Container {
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }

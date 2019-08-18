@@ -9,7 +9,7 @@ export default ({ posts }) => {
     return (
       <section key={id} className={styles.Post}>
         <h2 className={styles.Title}>
-          <Link to={`blog/${slug}`}>{title}</Link>
+          <Link to={`/blog/${slug}`}>{title}</Link>
         </h2>
         <p className={styles.Excerpt}>{excerpt}</p>
         <span className={styles.Date}>{date}</span>
