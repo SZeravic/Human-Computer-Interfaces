@@ -2,6 +2,7 @@
 date: "2019-17-8"
 title: "Client page information"
 slug: Clients
+published: false
 ---
 
 # Kako postati poželjan posloprimac?

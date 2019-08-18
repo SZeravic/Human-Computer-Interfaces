@@ -2,6 +2,7 @@
 date: "2019-18-8"
 title: "Home page information"
 slug: Homepage
+published: false
 ---
 
 # Traženje Posla

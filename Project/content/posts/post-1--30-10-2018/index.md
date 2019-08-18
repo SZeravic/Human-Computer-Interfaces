@@ -2,6 +2,7 @@
 date: "2018-10-30"
 title: "Hello, World!"
 slug: post-one
+published: true
 ---
 
 <!-- markdownlint-disable MD033 -->

@@ -2,6 +2,7 @@
 date: "2019-15-8"
 title: "About page information"
 slug: About
+published: false
 ---
 
 # Poštovani posjetitelji

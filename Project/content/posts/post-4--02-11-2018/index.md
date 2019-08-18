@@ -2,6 +2,7 @@
 date: "2018-11-02"
 title: "Post 4"
 slug: post-four
+published: true
 ---
 
 <!-- markdownlint-disable MD033 -->

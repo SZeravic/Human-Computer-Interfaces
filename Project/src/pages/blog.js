@@ -15,14 +15,13 @@ export default ({
   );
 };
 
+
+
 export const query = graphql`
   query BlogIndexQuery {
     allMarkdownRemark (
-      sort: {
-        fields:
-          frontmatter___date,
-          order: ASC
-      }
+      filter: { frontmatter:{ published: { eq:true }}}
+      sort: { fields: frontmatter___date, order: ASC }
     )
   {
       edges {
