@@ -8,17 +8,16 @@ export default () => {
 
     <Container>
       <h3 className={styles.AsideJobItem}> Najtraženija zanimanja </h3>
-      <p className={styles.AsideJobItem}> PRODAVAČ </p>
-      <p className={styles.AsideJobItem}> KONOBAR </p>
-      <p className={styles.AsideJobItem}> ČISTAČ </p>
-      <p className={styles.AsideJobItem}> KUHAR </p>
-      <p className={styles.AsideJobItem}> MEDICINSKA SESTRA </p>
-      <p className={styles.AsideJobItem}> ODGOJITELJ </p>
-      <p className={styles.AsideJobItem}> VOZAČ </p>
-      <p className={styles.AsideJobItem}> 13266 </p>
-      <p className={styles.AsideJobItem}> ZAŠTITAR OSOBA I IMOVINE </p>
-      <p className={styles.AsideJobItem}> SURADNIK </p>
-      <p className={styles.AsideJobItem}> NJEGOVATELJ </p>
+      <p className={styles.AsideJobItem}> Prodavac </p>
+      <p className={styles.AsideJobItem}> Konobar </p>
+      <p className={styles.AsideJobItem}> Cistac </p>
+      <p className={styles.AsideJobItem}> Kuhar </p>
+      <p className={styles.AsideJobItem}> Medicinska Sestra </p>
+      <p className={styles.AsideJobItem}> Odgojitelj </p>
+      <p className={styles.AsideJobItem}> Vozac </p>
+      <p className={styles.AsideJobItem}> Zastitar </p>
+      <p className={styles.AsideJobItem}> Suradnik </p>
+      <p className={styles.AsideJobItem}> NJegovatelj </p>
     </Container>
 
     <br/>

@@ -10,7 +10,8 @@
 
 .Aside {
     min-width: 15%;
-    padding-top: 1rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
     font-size: 14px;
 }
 
@@ -20,9 +21,7 @@
 }
 
 .AsideStatistics {
-    text-align: center;
-    border: 1px solid black;
-    margin: 3px;
+    text-align: center;    
 }
 
 

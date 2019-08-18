@@ -1,25 +1,27 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
+import PageInfo from "../components/PageInfo";
 import MainContent from "../components/Layout/MainContent";
 
-export default ({ data }) => {
+export default () => {
+  const data = useStaticQuery(graphql`
+    query {
+      markdownRemark(frontmatter: { slug: { eq: "Homepage" } }) {
+        html
+        frontmatter {
+          date
+          slug
+          title
+        }
+      }
+    }
+  `);
+
   return (
     <>
-      <MainContent>
-        <h1> { data.site.siteMetadata.title } </h1>
-        <p> { data.site.siteMetadata.description } </p>
+      <MainContent>        
+        <PageInfo pageInfo={data}/>
       </MainContent>
     </>
   );
 };
-
-export const query = graphql`
-  query SiteMetadata {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-    }
-  }
-`;
