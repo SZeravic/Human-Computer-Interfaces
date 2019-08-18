@@ -9,7 +9,7 @@ export default ({
 }) => {
   return (
     <>
-      <h1>Blog posts</h1>
+      <h1>Blogs</h1>
       <BlogIndex posts={posts} />
     </>
   );
