@@ -70,6 +70,7 @@ export default class Blog extends React.Component {
             placeholder="Search..."
             onChange={this.onChange}
             id="searchInput"
+            autoComplete="off"
           />
           <div className="search" onClick={() => this.onClick()}></div>
         </div>  

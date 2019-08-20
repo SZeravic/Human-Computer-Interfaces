@@ -4,14 +4,6 @@ export default [
     path: "/"
   },
   {
-    text: "Clients",
-    path: "/clients"
-  },
-  {
-    text: "Employers",
-    path: "/employers"
-  },
-  {
     text: "Blog",
     path: "/blog"
   },

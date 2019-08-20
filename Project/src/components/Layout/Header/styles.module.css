@@ -19,7 +19,7 @@
 
 .Logo {
   display: inline-block;
-  /* --logo-padding: calc(var(--header-padding, 5px) + 1px); */
+  --logo-padding: calc(var(--header-padding, 5px) + 1px);
   font-weight: 500;
   padding: var(--logo-padding) 0;
   color: black;
@@ -42,7 +42,6 @@
   display: inline-block;
   padding: var(--header-padding, 5px) 10px;
   margin-left: 10px;
-  text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;
   font-size: 15px;

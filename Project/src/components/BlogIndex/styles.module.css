@@ -1,12 +1,48 @@
 .Post {
-  padding-top: 2.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 1px 0px 2px 0px rgb(0, 0, 0), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(251, 251, 251);
+  transition: all 0.5s;
+}
+
+.Post:hover {
+  background-color: rgb(230, 230, 230);
+  transition: all 0.5s;
+}
+
+.Title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(85, 85, 85);
+  transition: all 0.5s;
+}
+
+.Title:hover {
+  color: rgb(0, 115, 209);
+  transition: all 0.5s;
 }
 
 .Excerpt {
   padding: 0.5rem 0;
+  color: rgb(85, 85, 85);
+  transition: all 0.5s;
+}
+
+.Excerpt:hover {
+  color: rgb(0, 115, 209);
+  transition: all 0.5s;
 }
 
 .Date {
   font-weight: 400;
   color: var(--color-dark-grey, #000);
+}
+
+
+
+/* RESPONSIVE PART */
+@media only screen and (max-width: 450px) {
 }

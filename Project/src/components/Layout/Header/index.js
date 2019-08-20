@@ -17,7 +17,7 @@ export default () => {
     <header className={styles.Header}>
       <Container className={styles.Container}>
         <Link to="/">
-          <span className={styles.Logo}>Gatsby</span>
+          <span className={styles.Logo}>Bussiness Startup</span>
         </Link>
         <Nav>{nav}</Nav>
       </Container>
