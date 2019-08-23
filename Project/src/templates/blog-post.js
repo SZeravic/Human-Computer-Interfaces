@@ -10,11 +10,11 @@ export default ({ data }) => {
   const { markdownRemark: post } = data;
   return (
     <>
-      <Link to={`/blog/`} className={styles.Back}>
-        &laquo; Go Back
+      <Link to={`/blog/`} className={styles.Back}>  
+        &laquo; Back
       </Link>
       <MainContent>
-        <h1 className={styles.Title}>{post.frontmatter.title}</h1>
+        <h2 className={styles.Title}>{post.frontmatter.title}</h2>
         <section className={styles.Post} dangerouslySetInnerHTML={{ __html: post.html }}/>
       </MainContent>
     </>

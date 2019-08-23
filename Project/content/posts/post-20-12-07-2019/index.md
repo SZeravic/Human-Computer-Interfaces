@@ -1,63 +1,59 @@
 ---
-title: "5 Reasons Your Site Should Be HTTPS"
+title: "Building a Successful Startup Financial Model"
 date: "2019-07-12"
 slug: post-20
 published: true
 popular: false
-imgLink: "https://www.opstart.ca/wp-content/uploads/2017/04/startup-business-model-1024x576.jpg"
+imgLink: "https://www.opstart.ca/wp-content/uploads/2018/07/startup-financial-model-400x250.jpeg"
 ---
 <!-- markdownlint-disable MD033 -->
 
-# 5 Reasons Your Site Should Be HTTPS
-
 <figure class="figure">
-    <img src="./images/http-security.jpg" alt="http-security"/>
-    <figcaption class="figure__caption">http-security</figcaption>
+    <img src="./images/model.jpeg" alt=""/>
 </figure>
 
-The difference between HTTP and HTTPS may only be one letter, but that one letter can have a huge impact in your website’s performance. What is HTTPS and what does it mean for your small business.
+When you establish a great startup financial model, you’ll be able to raise money from investors, get loans from banks, and much more. Proving your business is sustainable is key to gaining support.  
+How do you create a good financial model? These steps will help!  
 
-## What Is HTTPS?
+### Understand What a Financial Model Is
 
-HTTPS is a way to encrypt information that you send between a browser and a web server. This protects your website’s users from attacks intercepted by a middleman, where someone steals the information being sent to a website, like credit card information or logins.
+What, exactly, are you trying to show?  
+A financial model shows how your company works. You have a variety of inputs, such as revenue, costs, expenses, tax rates, and more. From that data, formulas create the expected outputs.  
+The outputs, such as cash flow and profitability, show how your company will perform as conditions change.  
+Financial models are essential for calculating funding requirements. It also helps you plan operations in the short-term and understand how long your capital will last.  
+You can create a financial model with an Excel spreadsheet, or you can find software that will help you.  
 
-Historically, HTTPS connections have primarily been used for sites that contain sensitive information, but recently, more sites are making the switch especially since Google prefer secure sites and are marking those with no SSL certificates as Not Secure.  As HTTPS has become easier to implement, secure connections are becoming the standard for all websites.
+### Who Do You Need to Create Your Startup Financial Model?
 
-## What Is an SSL Certificate?
+It’s very possible that you, as the founder, are not the person that’s best qualified to create this model. You need a strong understanding of corporate finance, financial models, and spreadsheets like Excel.  
+Many entrepreneurs who don’t have a strong financial background are tempted to skip creating a model at all. However, not having professional, presentable projections will keep you from finding funding and growing your business.  
+If you don’t feel that you can create the financial model yourself from scratch, choose software that can help. You might also choose to hire a financial expert to create this vital profile. Once it’s done, you can easily change the inputs to represent various market conditions.  
 
-An SSL Certificate is a set of data files that you can add to your server to achieve an encrypted connection between a browser and your server. When installed, a green padlock will be displayed when users visit your site to indicate that the site is secure.
+### Create Your Actual Model
 
-## What’s the Difference Between SSL and HTTPS?
+It may seem overwhelming to approach a blank spreadsheet, so start by making some notes. Start by looking at your business overall and describe what you’re trying to accomplish.  
+What are your goals with this financial model? How can you display your professionalism and that you take capital investment seriously?  
+From there, you can choose a bottom-up or top-down approach.  
 
-You may have heard the terms “SSL” or “SSL Certificate” used interchangeably with HTTPS.  For the most part, these are the same. An SSL certificate is the product that you are actually purchasing and installing on your server, and HTTPS is the result of having that certificate on your server.
+## Avoid Common Modeling Mistakes
+As you create your financial model, it’s vital to avoid mistakes that founders often make. Here are a few to keep an eye out for.
 
-*IF YOUR WEBSITE ISN’T SECURE YET, IT DEFINITELY SHOULD BE. HERE’S WHY:*
+### Being Too Complex
+The goal of your model is not to prove how smart you are. In fact, if you confuse your investors, they will walk away from a deal.  
+Instead, make sure everything flows smoothly and makes sense. You shouldn’t change an input and have investors wondering how you came up with your results.  
+Instead, spend time in both the data and the design of the model. It should be logical and easy to follow. You should also have a key for defining important terms and abbreviations.  
 
-    1. Increased Google Rankings
-Google has confirmed that they favour HTTPS sites and not surprisingly, over 40% of the sites on the first page of Google are HTTPS.
+### Using a “One Size Fits All” Template
+The reality is that every company is different, and you can’t expect a financial startup model template for a manufacturing firm to work for a SaaS company.  
+Instead, make sure you have a template or software that understands and fits your specific industry. That will help the inputs and formulas be appropriate for your business.  
 
-Google wants to ensure the best user experience for their customers, so understandably they don’t want to send searchers to insecure sites. Because of that, their ranking algorithm favours HTTPS sites. If your site isn’t secure, it could be getting outranked by similar sites that are. 
+### Providing Only One Financial Picture
+You don’t want a one-dimensional picture of your company. Instead, be sure that you can present monthly, quarterly, and annual projections.  
+Because your startup is in the early stages, it will be hard to know for sure if your assumptions are true. Include some scenario tables that show the impact of your assumptions being high or low.  
 
-    2. Improved Security
-There’s a reason why Google favours HTTPS—they want to achieve the safest web experience for their users. HTTPS protects your users’ information and your information from hackers.
-
-Keeping everything safer and more secure is simply a better option for everyone.
-
-    3. Updated Browser Labels
-As part of their push for a more secure web, Google is also updating their labelling for HTTP sites in Chrome’s URL bar. Currently, HTTP sites are marked with a grey information symbol and include a “Not Secure” label that is displayed in browser bar advising the user of the site security status. Eventually, Google is going to mark http sites with a red triangle with a “Not Secure” label written in red.
-
-While this new label only means that your site is not HTTPS, users don’t fully understand that, and many will likely feel a sense of unease from seeing that label on a site they are browsing.
-
-    4. Increased Conversions
-While users may not have a complete technical understanding of secure connections, they do understand that they want a site to be HTTPS if they are providing personal information.
-
-There is already a difference in conversion rates between HTTP and HTTPS sites and as Google rolls out their new HTTP labelling, we will likely see an even larger difference in conversion rates between the two.
-
-When users see those red labels, something as simple as entering a name, email, and phone number into a basic lead generation form can cause them concern.
-
-    5. Increased Customer Confidence
-With all the discussion of Google search results placing importance on HTTPS sites going around, more users are looking for a secure connection when visiting a website. A secure connection gives your customers peace of mind that your website can be trusted and their information is safe.  
-  
-#### HOW DO YOU SWITCH YOUR SITE TO HTTPS?
-
-If you’re ready to make the switch the HTTPS, Your Business Helper can handle the migration process for you – Contact Us Now to get your site secured!
+### Presenting Your Startup Financial Model
+Once you create your model, it’s time to present it! Remember, your startup financial model is a part of your business plan.
+You’re trying to show investors that you have an intimate understanding of the numbers, have thought through multiple scenarios, and are a good steward of investment funds.  
+As you share your model with investors and others, don’t be shy about presenting your key results in a persuasive way. You want to win a deal, just make sure you can back it up.  
+If you’ve had a financial expert prepare your model, or if you’ve used a template, make sure you understand the underlying assumptions and formulas completely before you present. You don’t want to be caught off guard by questions.
+Need more help getting your company off the ground? We’re here to help. Whether you need to register your business or make sure your business name isn’t already taken, we can help!  
