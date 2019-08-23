@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 
 
 export default ({ data }) => {
-  console.log(data);
+  // console.log(data);
   const { markdownRemark: post } = data;
   return (
     <>
