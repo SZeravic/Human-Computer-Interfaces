@@ -8,7 +8,7 @@ published: false
 # We help your business get found online and remembered!
 
 <figure class="figure">
-    <img src="./images/home.jpg" alt="Title"/>
+    <img src="./images/startup.jpg" alt="Title"/>
     <figcaption class="figure__caption">Business Startup!</figcaption>
 </figure>
 
