@@ -3,6 +3,7 @@ title: "Top 10 Pitfalls"
 date: "2019-06-13"
 slug: post-15
 published: true
+popular: false
 ---
 <!-- markdownlint-disable MD033 -->
 

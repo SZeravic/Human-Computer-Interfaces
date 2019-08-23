@@ -1,0 +1,48 @@
+.Data > * {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+}
+
+.Data > p {
+  padding: 0;
+}
+
+/* .title {
+} */
+
+.fname,
+.lname,
+.email,
+.textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.submit {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+.div_container {
+  max-width: 600px;
+  padding-top: 15px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}

@@ -3,6 +3,7 @@ title: "Stationery"
 date: "2019-07-01"
 slug: post-18
 published: true
+popular: false
 ---
 <!-- markdownlint-disable MD033 -->
 

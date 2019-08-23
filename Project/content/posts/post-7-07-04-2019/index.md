@@ -3,6 +3,7 @@ title: "Ten Proven Ways To Promote Your Small Business"
 date: "2019-04-07"
 slug: post-7
 published: true
+popular: true
 ---
 <!-- markdownlint-disable MD033 -->
 

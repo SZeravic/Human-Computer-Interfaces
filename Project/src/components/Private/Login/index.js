@@ -29,13 +29,9 @@ class LoginForm extends React.Component {
     };
 
     render() {
-        const style = this.state.invalid
-          ? { color: "var(--color-gold, red)" }
-          : { color: "var(--color-gatsby)" };
-    
         return (
             <form className={styles.LoginForm} onSubmit={this.handleSubmit}>
-                <label style={style}>{this.state.message}</label>
+                <label>{this.state.message}</label>
 
                 <input
                     autoFocus

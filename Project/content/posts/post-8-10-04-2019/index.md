@@ -3,6 +3,7 @@ title: "Learn to Write Clearly and Concisely for Business"
 date: "2019-04-10"
 slug: post-8
 published: true
+popular: false
 ---
 <!-- markdownlint-disable MD033 -->
 

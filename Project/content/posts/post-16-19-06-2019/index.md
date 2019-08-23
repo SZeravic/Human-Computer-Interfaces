@@ -3,6 +3,7 @@ title: "Changing Direction"
 date: "2019-06-19"
 slug: post-16
 published: true
+popular: false
 ---
 <!-- markdownlint-disable MD033 -->
 

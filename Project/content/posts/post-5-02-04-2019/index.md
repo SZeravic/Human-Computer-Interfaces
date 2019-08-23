@@ -3,6 +3,7 @@ title: "The Importance of Good Credit"
 date: "2019-04-02"
 slug: post-5
 published: true
+popular: true
 ---
 <!-- markdownlint-disable MD033 -->
 

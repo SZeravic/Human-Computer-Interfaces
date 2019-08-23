@@ -11,6 +11,7 @@ export default class Blog extends React.Component {
       searchText: ""
     };
     this.onChange = this.onChange.bind(this);
+    // console.log(props);
   }
 
   onChange(e) {

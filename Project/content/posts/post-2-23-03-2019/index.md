@@ -3,6 +3,7 @@ title: "Your Logo Should Change as Your Business Changes"
 date: "2019-03-23"
 slug: post-2
 published: true
+popular: true
 ---
 <!-- markdownlint-disable MD033 -->
 

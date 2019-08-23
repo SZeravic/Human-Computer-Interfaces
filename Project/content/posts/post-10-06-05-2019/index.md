@@ -3,6 +3,7 @@ title: "Business Banking"
 date: "2019-05-06"
 slug: post-10
 published: true
+popular: false
 ---
 <!-- markdownlint-disable MD033 -->
 

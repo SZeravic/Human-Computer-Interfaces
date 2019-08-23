@@ -3,6 +3,7 @@ title: "The Broadcast Media an Excellent Way To Promote Your Business"
 date: "2019-06-11"
 slug: post-14
 published: true
+popular: false
 ---
 <!-- markdownlint-disable MD033 -->
 

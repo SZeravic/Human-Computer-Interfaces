@@ -5,36 +5,45 @@ slug: Homepage
 published: false
 ---
 
-# Traženje Posla
+# We help your business get found online and remembered!
 
 <figure class="figure">
     <img src="./images/home.jpg" alt="Title"/>
-    <figcaption class="figure__caption">Title</figcaption>
+    <figcaption class="figure__caption">Business Startup!</figcaption>
 </figure>
 
-Gotovo polovica radnih mjesta popunjava se putem preporuka i kontakata.
-To je dobra vijest, ako imate kontakte. No, što ako ih nemate? Svakako pokušajte raditi na tome: družite se, stvorite poznanstva, 
-pogotovo ako ste zaposleni, ali i kao nezaposleni možete iskoristiti blagodati interneta s tim ciljem.
-U međuvremenu, morate nešto i raditi pa krenimo u potragu za vašim novim poslom…
-	
-# Poslali ste životopis? Lijepo ... To nije dovoljno.
-Kada bi traženje posla putem Interneta bilo tako jednostavno, svi bi ljudi imali posao.
-Iako je vrlo jednostavno kliknuti 'Prijava' na oglas, time ne prestaje vaš angažman. Prije same prijave morate znati odgovor na sljedeće pitanje: što vas je motiviralo da se prijavite na taj konkretan oglas?
-Iznenadili biste se koliki su poslodavci frustrirani činjenicom da među dvjestotinjak prijava jedva uspiju pronaći dva zadovoljavajuća kandidata.
-To je zato jer većina korisnika 'klikne' na sve moguće oglase, pa čak i za one poslove koji ih zapravo ne zanimaju. Razumijemo, treba vam plaća, ali pokušajte izbjegavati ovakvu praksu za vlastito dobro.
-Ako ste se prijavili na oglas koji vas zapravo i ne zanima, vrlo je vjerojatno da će se to vidjeti iz vašeg pisma zamolbe ili životopisa (koji nije prilagođen tom konkretnom poslu) i nećete dobiti poziv na razgovor.
-Poštedite se ovih frustrirajućih činjenica i radije koncentrirajte na poslove koje biste zaista voljeli raditi.
-To ne moraju biti 'poslovi iz snova', ali morate imati motivaciju koja nije samo 'primanje plaće'. To se podrazumijeva.
 
-# Znate li što želite?
-Ako nemate cilj, svi putevi vode u krivom smjeru. Morate imati jasnu ideju onoga što želite. Jednom kada to znate moći ćete se koncentrirati upravo na one stvari koje vas uistinu zanimaju.
-Drugim riječima, pokušajte zaista iskreno i precizno sami sebi odgovoriti na pitanje: „Zašto želite raditi za njih?“ Istaknite što više razloga možete, a koji se ne svode samo na 'trebam plaću' i 'Pa, zato jer trebam posao'.
-Jednom kada ste smislili dobre argumente istaknite ih u svom pismu zamolbe, nemojte čekati priliku da to kažete na razgovoru za posao.
+### Services:
+Do you need help with:
 
-# Uspostavite kontakt
+&nbsp;&nbsp;- Website Design  
+&nbsp;&nbsp; - Website Site Updates & Maintenance  
+&nbsp;&nbsp; - Social Media Set Up/Training/Management  
+&nbsp;&nbsp; - Creating SEO Content  
+&nbsp;&nbsp; - Website & Blog Content  
+&nbsp;&nbsp; - Computer Tutor (Microsoft Office, Email, Back Ups etc)  
+&nbsp;&nbsp; - Event Management  
+&nbsp;&nbsp; - Project Management  
+&nbsp;&nbsp; - Self Publishing Books  
+&nbsp;&nbsp; - Travel Planning  
 
-Ako zaista želite posao, nemojte samo poslati prijavu i nadati se najboljem. Kontaktirajte poslodavca koji je objavio oglas i razgovarajte izravno s njim.
-Možete iskoristiti priliku i pitati treba li priložiti kakvu dodatnu dokumentaciju prilikom slanja prijave ili prilikom dolaska na razgovor za posao. Postavite se kao pobjednik,
-kao da se podrazumijeva da ćete 'dogurati' do razgovora za posao. Ovakvo samopouzdanje možete pokazati naprosto pokazivanjem inicijative.
-Pritom nemojte biti umišljeni ili zadržavati sugovornika na telefonu predugo. Nakon što vam odgovori na pitanje kratko istaknite kako se namjeravate prijaviti na oglas jer vas je ovo radno mjesto jako zainteresiralo
-te kako se nadate da ćete se imati priliku upoznati i uživo na razgovoru za posao. Možda vam pomisao na ovako nešto predstavlja nelagodu, ali ako će pomoći u ostavljanju dobrog dojma i dobivanju posla, pregrizite ponos i strah.
+&nbsp;
+
+Whether you are a new business, a small Sole Proprietor or the Manager of a company, 2019 is the year to make a definitive Plan Of Action that will propel you to reach your goals this year and beyond.
+
+Yes! But when do you have the time to put a new Plan INTO Action? We will help you prioritize your Marketing To-Do list and can assist you in implementing your program if you do not have a staff or members on your team that can take on another project!
+
+### We will begin with getting to know you and your business
+We are dedicated to give your business our full attention. We’ll begin with a short consultation to go over the basics and what you need right now, within 6 months, one year, and beyond as time allows.
+This meeting is usually 45-90 minutes. It can be as thorough or as modest as you like; We take the information you share into confidence, then puts together a detailed Plan Of Action for you. 
+
+### Turning plans into Actions!
+When we meet again, it is to go over a suggested Plan Of Action developed just for your business and the goals you have stated. You may decide to implement the entire plan or a portion of the plan. I am here to assist you at the rate you are ready to proceed. You are the Driver; I am more like the Navigator or GPS.
+
+### Schedule with business helper by texting us or using the contact form.
+We will begin as quickly and as strongly as you want to hit the road. You may determine that some of the Tasks and Actions are things you can do yourself or delegate to someone on your staff, giving your Business Helper and Partner more time to donate to the implementation of more complex and/or time consuming activities in the Plan. 
+
+### Producing Results
+Our Business Starup Helper wants you to see results! It is important to your peace of mind, your budget, and the future of your company to be 'in the know' and it is important to me to help you understand the results of our efforts. This reporting can be  simplified or summarized in an easy-to-understand format. 
+
+We will determine together how often you want to receive reports during our Plan Of Action Meeting.

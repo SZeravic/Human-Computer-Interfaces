@@ -6,7 +6,7 @@ export default () => (
   <footer className={styles.Footer}>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
     <Container className={styles.Container}>
-      Feel free to email us at www.realbussinessgrowth@gmail.com
+      Feel free to email us at realbussinessgrowth@gmail.com
       <Container>
         <a href="https://hr.linkedin.com/" className="fa fa-linkedin"> </a>
         <a href="https://twitter.com/?lang=en" className="fa fa-twitter"> </a>

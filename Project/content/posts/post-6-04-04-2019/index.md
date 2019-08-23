@@ -3,6 +3,7 @@ title: "Businesses need to get the word out"
 date: "2019-04-04"
 slug: post-6
 published: true
+popular: true
 ---
 <!-- markdownlint-disable MD033 -->
 

@@ -15,18 +15,18 @@
     font-size: 14px;
 }
 
-.socialMedia {
-    padding-top: 4rem;
-    padding-bottom: 1rem;
-}
+/* .socialMedia {
+    
+} */
 
 .socialMedia .headerTitle {
     color: cornflowerblue;
 }
 
-/* .popular {
-
-} */
+.popular {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
 
 .popular .headerTitle {
     color:cornflowerblue;

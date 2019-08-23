@@ -3,6 +3,7 @@ title: "Building a Database, a Case Study"
 date: "2019-03-26"
 slug: post-3
 published: true
+popular: true
 ---
 <!-- markdownlint-disable MD033 -->
 

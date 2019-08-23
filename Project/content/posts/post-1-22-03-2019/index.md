@@ -3,6 +3,7 @@ title: "The Golden Circle, Start with Why"
 date: "2019-03-22"
 slug: post-1
 published: true
+popular: true
 ---
 <!-- markdownlint-disable MD033 -->
 

@@ -59,19 +59,35 @@ h1, h2, h3, h4, h5 {
   color: rgb(85, 85, 85);
 }
 
+h1 {
+  color:  steelblue;
+}
+
 
 a {
   color:rgb(85, 85, 85);
   text-decoration: none;
+  transition: all 0.5s;
 }
 
 a:hover {
   transition: all 0.2s ease-in;
-  color:rgba(15, 95, 223, 0.76);
+  color:rgba(0, 98, 255, 0.904);
 }
 
 .figure {
   max-width: 1500px;
+}
+
+.figure_side_image {
+  margin-right: 10px;
+  width: 300px;
+  height: 300px;
+  color: #111;
+  
+  text-align: center;
+  font-size: 90px;
+  float:left;
 }
 
 .figure__caption {
@@ -79,6 +95,11 @@ a:hover {
   color: var(--color-primary, #000);
   padding-bottom: 0.1rem;
   border-bottom: 2px solid var(--color-grey, #000);
+}
+
+/* SPECIFIC PAGE CSS */
+.PageInfo {
+  background-color: black;
 }
 
 /* .searchForm {

@@ -3,6 +3,7 @@ title: "Marketing Your Company"
 date: "2019-06-23"
 slug: post-17
 published: true
+popular: false
 ---
 <!-- markdownlint-disable MD033 -->
 
