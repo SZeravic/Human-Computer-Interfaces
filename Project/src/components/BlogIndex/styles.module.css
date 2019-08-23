@@ -7,11 +7,27 @@
   box-shadow: 1px 0px 2px 0px rgb(0, 0, 0), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
   background-color: rgb(251, 251, 251);
   transition: all 0.5s;
+
+  overflow: auto;
+  display: inline-grid;
+  grid-template-columns: 27% 73%;	
 }
 
 .Post:hover {
   background-color: rgb(230, 230, 230);
   transition: all 0.5s;
+}
+
+.postContainer {
+  overflow: hidden;
+  text-overflow: hidden;
+  clear: right;
+}
+
+.postThumb {
+  width: 256px;
+  height: auto;;
+  
 }
 
 .Title {
@@ -41,8 +57,12 @@
   color: var(--color-dark-grey, #000);
 }
 
-
-
 /* RESPONSIVE PART */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1075px) {
+  .postThumb {
+    display: none;
+  }
+  .Post {
+    display: inline-block;
+  }
 }

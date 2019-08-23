@@ -4,6 +4,7 @@ date: "2019-03-22"
 slug: post-1
 published: true
 popular: true
+imgLink: "https://www.opstart.ca/wp-content/uploads/2017/04/startup-business-model-1024x576.jpg"
 ---
 <!-- markdownlint-disable MD033 -->
 

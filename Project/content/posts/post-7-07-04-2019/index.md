@@ -4,6 +4,7 @@ date: "2019-04-07"
 slug: post-7
 published: true
 popular: true
+imgLink: "https://3mgj4y44nc15fnv8d303d8zb-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/The-Surprising-Ways-the-Crypto-News-World-Changed-in-2018-696x449.jpg"
 ---
 <!-- markdownlint-disable MD033 -->
 

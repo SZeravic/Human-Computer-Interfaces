@@ -77,7 +77,6 @@ export default class Blog extends React.Component {
           <div className="search" onClick={() => this.onClick()}></div>
         </div>  
         <BlogIndex posts={this.state.filteredPosts} />
-
         <ScrollToTop showUnder={160} style = { {bottom: 15,right: 15}}>
           <img src = 'https://milosjanda.github.io/react-scroll-up/img/up_arrow_round.png' alt=''></img>
         </ScrollToTop>
@@ -100,6 +99,7 @@ export const query = graphql`
             title
             date
             slug
+            imgLink
           }
           excerpt(pruneLength: 300)
           html
