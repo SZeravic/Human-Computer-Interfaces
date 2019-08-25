@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 import { Container } from "components";
 import Nav from "./Nav";
 import NavLink from "./NavLink";
-import styles from "./styles.module.css";
 import navLinks from "config/menu.js";
+import styles from "./styles.module.css";
 
 export default () => {
   const nav = navLinks.map(link => (
