@@ -1,14 +1,15 @@
-import React, { Component } from "react";
-import { SiteContainer } from "components";
+import React from "react";
 import Main from "./MainContent/Main";
 import Header from "./Header";
 import Footer from "./Footer";
 import MenuButton from "./MenuButton";
 import SideMenu from "./SideMenu";
 import Overlay from "./Overlay";
+import { Helmet } from 'react-helmet';
+import { SiteContainer } from "components";
 import "styles/index.css";
 
-class Layout extends Component {
+class Layout extends React.Component {
   state = {
     showSideMenu: false
   };
@@ -35,7 +36,8 @@ class Layout extends Component {
     const status = this.state.showSideMenu ? "open" : "closed";
 
     return (
-      <SiteContainer>       
+      <SiteContainer>
+        <Helmet title="Business Startup" defer={false} />
         <Header />
         <MenuButton status={status} onClick={this.showMenu} />
         <Overlay status={status} onClick={this.showMenu} />

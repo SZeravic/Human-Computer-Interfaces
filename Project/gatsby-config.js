@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: "My first Gatsby application",
-    description: "Hello, World!"
+    title: "Business Startup",
+    description: "Application"
   },
 
   plugins: [
     "gatsby-plugin-sharp",
     "gatsby-plugin-playground",
+    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
