@@ -22,10 +22,15 @@ class LoginForm extends React.Component {
     if (status.error) {
       message = status.message;
       invalid = true;
-      return this.setState({ username: "", password: "", message, invalid });
+      return this.setState({
+        username: "",
+        password: "",
+        message,
+        invalid
+      });
     }
 
-    navigate(this.props.private);
+    navigate("/private/dashboard");
   };
 
   render() {

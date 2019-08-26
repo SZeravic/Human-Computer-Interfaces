@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { navigate } from "gatsby";
 import styles from "./styles.module.css";
 
-export default class RegisterForm extends Component {
+export default class RegisterForm extends React.Component {
   state = {
     username: "",
     password: "",
@@ -16,7 +16,8 @@ export default class RegisterForm extends Component {
   handleEmail = event => this.setState({email: event.target.value});
   handleSubmit = event => {
     event.preventDefault();
-    const status = this.props.handleLogin(this.state);
+    // console.log(this.state);
+    const status = this.props.handleRegestration(this.state);
 
     let { message, invalid } = this.state;
     if (status.error) {
@@ -25,12 +26,13 @@ export default class RegisterForm extends Component {
       return this.setState({
         username: "",
         password: "",
+        email: "",
         message,
         invalid
       });
     }
 
-    navigate(this.props.private);
+    navigate("/private/dashboard");
   };
 
   render() {
@@ -38,7 +40,7 @@ export default class RegisterForm extends Component {
                                       : { color: "var(--color-gatsby)" };
 
     return (
-      <form className={styles.RegisterForm}>
+      <form className={styles.RegisterForm} onSubmit={this.handleSubmit}>
         <label style={style}>{this.state.message}</label>
 
         <input

@@ -5,13 +5,15 @@ import navLinks from "config/menu.js";
 import { Link } from "gatsby";
 import { Container } from "components";
 import { PrivateRoute } from "components";
-import { isLoggedIn } from "../../../services/auth/auth";
+import { isLoggedIn, getUser } from "../../../services/auth/auth";
 
 import styles from "./styles.module.css";
 
 export default () => {
   const nav = navLinks.map(link => {
     if (link.private) {
+      const user = getUser();
+      // console.log(user);
       return (
         <PrivateRoute
           key={link.path}
@@ -22,7 +24,7 @@ export default () => {
               className={styles.PrivateLink}
               activeClassName={styles.PrivateLink_active}
             >
-              {link.text}
+              {user.name}
             </NavLink>
           )}
         />

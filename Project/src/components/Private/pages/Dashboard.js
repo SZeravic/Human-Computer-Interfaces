@@ -2,9 +2,9 @@ import React from "react";
 
 export default () => (
   <>
-    <h1>Dashboard</h1>
+    <h1>Profile Dashboard</h1>
     <p>
-      Implementing!
-      </p>
+      Implementing dashboard!
+    </p>
   </>
 );

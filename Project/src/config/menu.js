@@ -20,9 +20,8 @@ export default [
     path: "/login",
     login: true
   },
-  // Private routes
   {
-    text: "Dashboard",
+    text: "Profile",
     path: "/private/dashboard",
     private: true
   }
