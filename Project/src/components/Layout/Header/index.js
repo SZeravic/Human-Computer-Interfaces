@@ -1,17 +1,42 @@
 import React from "react";
-import { Link } from "gatsby";
-import { Container } from "components";
 import Nav from "./Nav";
 import NavLink from "./NavLink";
 import navLinks from "config/menu.js";
+import { Link } from "gatsby";
+import { Container } from "components";
+import { PrivateRoute } from "components";
+import { isLoggedIn } from "../../../services/auth/auth";
+
 import styles from "./styles.module.css";
 
 export default () => {
-  const nav = navLinks.map(link => (
-    <NavLink key={link.path} to={link.path}>
-      {link.text}
-    </NavLink>
-  ));
+  const nav = navLinks.map(link => {
+    if (link.private) {
+      return (
+        <PrivateRoute
+          key={link.path}
+          render={() => (
+            <NavLink
+              key={link.path}
+              to={link.path}
+              className={styles.PrivateLink}
+              activeClassName={styles.PrivateLink_active}
+            >
+              {link.text}
+            </NavLink>
+          )}
+        />
+      );
+    }
+    if(isLoggedIn() && link.login)
+      return null;
+
+    return (
+      <NavLink key={link.path} to={link.path}>
+        {link.text}
+      </NavLink>
+    );
+  });
 
   return (
     <header className={styles.Header}>

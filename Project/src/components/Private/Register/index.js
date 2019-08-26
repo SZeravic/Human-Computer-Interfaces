@@ -34,7 +34,7 @@ export default class RegisterForm extends Component {
   };
 
   render() {
-    const style = this.state.invalid  ? { color: "var(--color-gold, red)" } 
+    const style = this.state.invalid  ? { color: "var(--color-gold, red)" }
                                       : { color: "var(--color-gatsby)" };
 
     return (
