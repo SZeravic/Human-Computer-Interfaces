@@ -7,6 +7,7 @@ export const handleLogin = ({ username, password }) => {
     setUser({
       username: `admin`,
       name: `Admin`,
+      password: `1221`,
       email: `admin@fesb.hr`
     });
 
@@ -19,6 +20,7 @@ export const handleLogin = ({ username, password }) => {
     setUser({
       username: `stipe`,
       name: `Stipe`,
+      password: `pro`,
       email: `stipe@fesb.hr`
     });
 
@@ -31,6 +33,7 @@ export const handleLogin = ({ username, password }) => {
     setUser({
       username: `student`,
       name: `Student`,
+      password: `stud`,
       email: `student@fesb.hr`
     });
 
@@ -52,7 +55,8 @@ export const handleRegestration = ({ username, password, email }) => {
   if (username !== "" && password !== "") {
     setUser({
       username: username,
-      name: password,
+      name: username.charAt(0).toUpperCase() + username.slice(1),
+      password: password,
       email: email
     });
 
